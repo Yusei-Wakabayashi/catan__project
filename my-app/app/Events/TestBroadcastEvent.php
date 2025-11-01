@@ -28,7 +28,7 @@ class TestBroadcastEvent implements ShouldBroadcast
      * @return array<int, \Illuminate\Broadcasting\Channel>
      */
 
-    public function boradcastAs(): string
+    public function broadcastAs(): string
     {
         return 'TestBroadcastEvent';
     }
